@@ -1,3 +1,11 @@
+% Author : David Chen
+% ANN training logic, forward and backward propagation. Trained weights are stored in W matrix.
+
+% W - Initial Weight
+% X - Features
+% y - Response Variable
+% alpha - Learning Rate
+
 function [W] = ANN(W, X, y, alpha)
     J = 0;
     m = size(X, 1);
